@@ -1,0 +1,169 @@
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #0d6efd;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.dropdown-menu {
+    background: #212529;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #f8f9fa;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.hero-section span {
+    color: #0d6efd;
+}
+
+.hero-section img {
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.hero-section img:hover {
+    transform: scale(1.05);
+}
+
+.about-section {
+    background: #fff;
+    padding: 60px 20px;
+}
+
+.personal-section .card {
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.personal-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.education-section img {
+    max-height: 150px;
+    object-fit: contain;
+    transition: transform 0.3s;
+    background-color: white;
+}
+
+.education-section img:hover {
+    transform: scale(1.1);
+}
+
+.education-section p {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.skills-section .card {
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.awards-section img {
+    max-height: 150px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.awards-section img:hover {
+    transform: scale(1.1);
+}
+
+.awards-section p {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+footer a {
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer a:hover {
+    color: #0d6efd;
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section img {
+        max-width: 200px;
+    }
+}
